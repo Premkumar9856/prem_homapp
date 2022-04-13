@@ -480,14 +480,14 @@ a {
 /**************** services end *****************/
 
 .call-to-action {
-  width:80%;
-  height: auto;
+  width: auto;
+  height: 100px;
   background: #010101 0% 0% no-repeat padding-box;
   border: 1px solid #707070;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  /* margin: 200px 200px; */
+  margin: 100px 200px;
 }
 
 .call-to-action p {
@@ -505,8 +505,7 @@ a {
 @media (max-width: 1700px) {
   .call-to-action {
     height: 80px;
-    width: 100%; 
-    margin: 80px auto ;
+    margin: 50px 100px;
   }
 
   .call-to-action p {
@@ -519,7 +518,6 @@ a {
     padding: 10px 10px;
   }
 }
-
 
 /********* call-to-action ends ***********/
 
@@ -628,11 +626,11 @@ a {
 /***************** commercial end ****************/
 
 .call-to-action {
-  width: 80%;
-  height: auto;
+  width: auto;
+  height: 100px;
   background: #010101 0% 0% no-repeat padding-box;
   border: 1px solid #707070;
-  /* margin: 100px 200px; */
+  margin: 100px 200px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -649,7 +647,7 @@ a {
   height: 68px;
   background: #ffffff 0% 0% no-repeat padding-box;
   font-size: 30px;
-  /* font-weight: bold; */
+  font-weight: bold;
   color: #082e5a;
 }
 
@@ -670,24 +668,6 @@ a {
   }
 }
 
-@media (max-width:600px) {
-  .call-to-action {
-    height: 50px;
-    margin: 50px auto;
-    flex-direction: column;
-  }
-
-  .call-to-action p {
-    font-size: 10px;
-  }
-
-  .call-to-action button {
-    width: 70px;
-    height: 30px;
-    font-size: 10px;
-    
-  }
-}
 /***************** call-to-action end *************/
 
 .scope {
@@ -764,7 +744,6 @@ a {
   }
   .scope .scopeElements .element ul {
     font-size: 12px;
-    text-align: start;
   }
 }
 
@@ -781,35 +760,6 @@ a {
   .scope .scopeElements {
     gap: 50px;
   }
-}
-
-@media(max-width:600px){
-  .scope {
-    margin: 0px 0px;
-    gap:10px;
-    overflow-y: hidden;
-
-  }
-
-  .scope h2 {
-    font-size:20px;
-  }
-  .scope .scopeElements {
-    justify-content: center;
-    align-items: center;
-    gap:30px;
-    
-  }
-
-  .scope .scopeElements .element h3 {
-    font-size: 18px;
-  }
-  .scope .scopeElements .element ul {
-    font-size: 16px;
-    text-align: start;
-    overflow-y: hidden;
-  }
-
 }
 
 /************* scope ends *****************/
@@ -906,40 +856,6 @@ a {
   .keyHighlights .keys {
     gap: 80px;
   }
-}
-
-@media (max-width:600px){
-  .keyHighlights {
-    margin:50px 30px;
-
-    /* gap:35px; */
-  }
-
-  .keyHighlights h2 {
-    font-size: 30px;
-  }
-
-  .keyHighlights .keys {
-    gap:30px;
-  }
-
-  .keyHighlights .key {
-    width: 70px;
-    height: 120px;
-
-    gap: 20px;
-  }
-
-  .keyHighlights .key img {
-    width: 60px;
-    height: 60px;
-  }
-  .keyHighlights .key p {
-    font-size: 10px;
-
-    overflow-y: hidden;
-  }
-
 }
 
 /************** keyHighlights end  ********************/
